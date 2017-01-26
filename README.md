@@ -7,6 +7,7 @@ I've recommend following the Salesforce Live Agent setup for more detailed instr
 https://developer.salesforce.com/docs/atlas.en-us.workbook_service_cloud.meta/workbook_service_cloud/service5_step1.htm
 
 But here's the quick, simple setup:
+
 1. Create a Skill 
 2. Create a Live Agent Deployment in Salesforce (take note of the Deployment Id)
 3. Create a Live Agent Configuration in Salesforce
@@ -14,6 +15,7 @@ But here's the quick, simple setup:
 5. In the index.html file, replace BUTTONID, ORGID and DEPLOYMENTID with values created above
 
 If you load the index.html file, it should display that Chat is Offline. You will need to login to Salesforce as an Agent User and be online. These steps are required:
+
 1. Enable a user as a Live Agent User
 2. Enable a user as a Service Cloud User
 3. Add a Service (or Sales) Console license as a Permission Set License Assignment
